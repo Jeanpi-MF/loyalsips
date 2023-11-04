@@ -1,4 +1,4 @@
 package com.acme.loyalsips.platform.loyalsips.domain.model.commands;
 
-public record ConfirmPointCommand() {
+public record ConfirmPointCommand(Long pointId) {
 }
