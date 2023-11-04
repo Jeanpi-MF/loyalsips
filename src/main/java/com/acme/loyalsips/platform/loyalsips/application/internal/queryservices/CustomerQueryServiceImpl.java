@@ -9,4 +9,24 @@ import org.springframework.stereotype.Service;
 
 import java.util.Optional;
 
- 
+@Service
+public class CustomerQueryServiceImpl implements CustomerQueryService {
+
+    private final CustomerRepository customerRepository;
+
+    public CustomerQueryServiceImpl(CustomerRepository customerRepository) {
+        this.customerRepository = customerRepository;
+    }
+
+    @Override
+    public Optional<Customer> handle(GetCustomerByProfileIdQuery query) {
+        return customerRepository.findByProfileId(query.profileId());
+    }
+
+    @Override
+    public Optional<Customer> handle(GetCustomerByAcmeCustomerRecordIdQuery query) {
+        return customerRepository.findByAcmeCustomerRecordId(query.acmeCustomerRecordId());
+    }
+
+
+}
