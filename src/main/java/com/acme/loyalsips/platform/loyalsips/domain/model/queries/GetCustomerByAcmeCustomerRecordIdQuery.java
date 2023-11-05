@@ -1,4 +1,6 @@
 package com.acme.loyalsips.platform.loyalsips.domain.model.queries;
 
-public record GetCustomerByAcmeCustomerRecordIdQuery() {
+import com.acme.loyalsips.platform.loyalsips.domain.model.valueobjects.AcmeCustomerRecordId;
+
+public record GetCustomerByAcmeCustomerRecordIdQuery(AcmeCustomerRecordId acmeCustomerRecordId) {
 }
