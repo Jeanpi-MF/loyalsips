@@ -1,4 +1,7 @@
 package com.acme.loyalsips.platform.loyalsips.domain.model.queries;
 
-public record GetCustomerByProfileIdQuery() {
+import com.acme.loyalsips.platform.loyalsips.domain.model.valueobjects.AcmeCustomerRecordId;
+import com.acme.loyalsips.platform.loyalsips.domain.model.valueobjects.ProfileId;
+
+public record GetCustomerByProfileIdQuery(ProfileId profileId) {
 }

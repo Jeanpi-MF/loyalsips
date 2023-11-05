@@ -12,7 +12,7 @@ import java.util.Optional;
 
 /**
  * Implementation of {@link BarCommandService}.
- this is important*/
+ */
 
 @Service
 public class BarCommandServiceImpl implements BarCommandService {
@@ -46,7 +46,7 @@ public class BarCommandServiceImpl implements BarCommandService {
         if (barRepository.existsAllByNameAndIdIsNot(command.name(), command.id()))
             throw new IllegalArgumentException("Bar with name already exists");
         var updatedBar = barRepository.save(barToUpdate.updateInformation(command.name(), command.description()));
-           return Optional.of(updatedBar);
+        return Optional.of(updatedBar);
     }
 
     @Override
@@ -56,3 +56,4 @@ public class BarCommandServiceImpl implements BarCommandService {
 
     }
 }
+

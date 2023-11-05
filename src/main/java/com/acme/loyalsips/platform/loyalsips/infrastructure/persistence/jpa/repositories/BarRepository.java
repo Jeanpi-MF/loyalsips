@@ -10,8 +10,7 @@ import java.util.Optional;
 public interface BarRepository extends JpaRepository<Bar,Long> {
     Optional<Bar> findByName(String name);
 
-    boolean existByName(String name);
-
+    boolean existsByName(String name);
     boolean existsAllByNameAndIdIsNot(String name, Long id );
 
 }
