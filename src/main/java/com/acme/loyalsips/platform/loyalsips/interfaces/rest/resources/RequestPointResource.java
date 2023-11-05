@@ -1,4 +1,11 @@
 package com.acme.loyalsips.platform.loyalsips.interfaces.rest.resources;
 
-public record RequestPointResource() {
+import jakarta.validation.constraints.NotNull;
+
+public record RequestPointResource(@NotNull
+                                   String customerRecordId,
+                                   @NotNull
+                                   Long barId) {
+
+
 }

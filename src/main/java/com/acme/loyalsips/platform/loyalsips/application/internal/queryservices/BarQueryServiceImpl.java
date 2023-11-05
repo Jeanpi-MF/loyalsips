@@ -6,7 +6,7 @@ import com.acme.loyalsips.platform.loyalsips.domain.model.queries.GetBarByIdQuer
 import com.acme.loyalsips.platform.loyalsips.domain.services.BarQueryService;
 import com.acme.loyalsips.platform.loyalsips.infrastructure.persistence.jpa.repositories.BarRepository;
 import org.springframework.stereotype.Service;
-
+ 
 import java.util.List;
 import java.util.Optional;
 

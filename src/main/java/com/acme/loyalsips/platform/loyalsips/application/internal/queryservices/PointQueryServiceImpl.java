@@ -23,7 +23,7 @@ public class PointQueryServiceImpl implements PointQueryService {
     @Override
     public List<Point> handle(GetCustomerPointsQuery query) {
         return pointRepository.findAllByAcmeCustomerRecordId(query.customerRecordId());
-    }
+    } 
 
     @Override
     public Optional<Point> handle(GetPointByIdQuery query) {
