@@ -78,7 +78,7 @@ public class BarController {
     public ResponseEntity<?> deleteBar(@PathVariable Long barId) {
         var deleteBarCommand = new DeleteBarCommand(barId);
         barCommandService.handle(deleteBarCommand);
-        return ResponseEntity.ok("Bar with given id successfully deleted.");
+        return ResponseEntity.ok("Bar with given id successfully deleted..");
     }
 
 
