@@ -8,5 +8,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
  * Implementation of {@link HashingService} using BCrypt algorithm.
  * Implementation of {@link PasswordEncoder} using BCrypt algorithm.
  */
+
+//INJECTION
 public interface BCryptHashingService extends HashingService, PasswordEncoder {
 }
