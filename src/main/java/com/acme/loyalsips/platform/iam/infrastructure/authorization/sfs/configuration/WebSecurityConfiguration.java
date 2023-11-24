@@ -18,7 +18,7 @@ import org.springframework.security.web.AuthenticationEntryPoint;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
-
+//MODIFY SECURITY CONFIGURATION
 @Configuration
 @EnableMethodSecurity
 public class WebSecurityConfiguration {
