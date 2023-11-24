@@ -11,6 +11,4 @@ public class LoyalsipsApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(LoyalsipsApplication.class, args);
-    }
-
-}
+    }}
