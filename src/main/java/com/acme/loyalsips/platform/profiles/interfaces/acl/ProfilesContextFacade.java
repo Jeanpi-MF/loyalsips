@@ -1,10 +1,10 @@
 package com.acme.loyalsips.platform.profiles.interfaces.acl;
 
+import com.acme.loyalsips.platform.profiles.domain.services.ProfileCommandService;
+import com.acme.loyalsips.platform.profiles.domain.services.ProfileQueryService;
 import com.acme.loyalsips.platform.profiles.domain.model.commands.CreateProfileCommand;
 import com.acme.loyalsips.platform.profiles.domain.model.queries.GetProfileByEmailQuery;
 import com.acme.loyalsips.platform.profiles.domain.model.valueobjects.EmailAddress;
-import com.acme.loyalsips.platform.profiles.domain.services.ProfileCommandService;
-import com.acme.loyalsips.platform.profiles.domain.services.ProfileQueryService;
 import org.springframework.stereotype.Service;
 
 @Service

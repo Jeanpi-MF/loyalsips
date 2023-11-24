@@ -2,10 +2,10 @@ package com.acme.loyalsips.platform.iam.interfaces.rest;
 
 
 import com.acme.loyalsips.platform.iam.domain.model.queries.GetAllUsersQuery;
+import com.acme.loyalsips.platform.iam.interfaces.rest.transform.UserResourceFromEntityAssembler;
 import com.acme.loyalsips.platform.iam.domain.model.queries.GetUserByIdQuery;
 import com.acme.loyalsips.platform.iam.domain.services.UserQueryService;
 import com.acme.loyalsips.platform.iam.interfaces.rest.resources.UserResource;
-import com.acme.loyalsips.platform.iam.interfaces.rest.transform.UserResourceFromEntityAssembler;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;

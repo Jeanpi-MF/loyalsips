@@ -2,12 +2,12 @@ package com.acme.loyalsips.platform.iam.application.internal.commandservices;
 
 import com.acme.loyalsips.platform.iam.application.internal.outboundservices.hashing.HashingService;
 import com.acme.loyalsips.platform.iam.application.internal.outboundservices.tokens.TokenService;
-import com.acme.loyalsips.platform.iam.domain.model.aggregates.User;
-import com.acme.loyalsips.platform.iam.domain.model.commands.SignInCommand;
 import com.acme.loyalsips.platform.iam.domain.model.commands.SignUpCommand;
-import com.acme.loyalsips.platform.iam.domain.services.UserCommandService;
 import com.acme.loyalsips.platform.iam.infrastructure.persistence.jpa.repositories.RoleRepository;
 import com.acme.loyalsips.platform.iam.infrastructure.persistence.jpa.repositories.UserRepository;
+import com.acme.loyalsips.platform.iam.domain.model.aggregates.User;
+import com.acme.loyalsips.platform.iam.domain.model.commands.SignInCommand;
+import com.acme.loyalsips.platform.iam.domain.services.UserCommandService;
 import org.apache.commons.lang3.tuple.ImmutablePair;
 import org.springframework.stereotype.Service;
 

@@ -1,10 +1,10 @@
 package com.acme.loyalsips.platform.loyalsips.application.internal.queryservices;
 
+import com.acme.loyalsips.platform.loyalsips.infrastructure.persistence.jpa.repositories.BarRepository;
 import com.acme.loyalsips.platform.loyalsips.domain.model.aggregates.Bar;
 import com.acme.loyalsips.platform.loyalsips.domain.model.queries.GetAllBarQuery;
 import com.acme.loyalsips.platform.loyalsips.domain.model.queries.GetBarByIdQuery;
 import com.acme.loyalsips.platform.loyalsips.domain.services.BarQueryService;
-import com.acme.loyalsips.platform.loyalsips.infrastructure.persistence.jpa.repositories.BarRepository;
 import org.springframework.stereotype.Service;
  
 import java.util.List;

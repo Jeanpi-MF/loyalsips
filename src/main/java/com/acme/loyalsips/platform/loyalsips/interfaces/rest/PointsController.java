@@ -1,15 +1,15 @@
 package com.acme.loyalsips.platform.loyalsips.interfaces.rest;
 
-import com.acme.loyalsips.platform.loyalsips.domain.model.commands.CancelPointCommand;
-import com.acme.loyalsips.platform.loyalsips.domain.model.commands.ConfirmPointCommand;
-import com.acme.loyalsips.platform.loyalsips.domain.model.commands.RejectPointCommand;
-import com.acme.loyalsips.platform.loyalsips.domain.model.queries.GetPointByIdQuery;
 import com.acme.loyalsips.platform.loyalsips.domain.services.PointCommandService;
 import com.acme.loyalsips.platform.loyalsips.domain.services.PointQueryService;
 import com.acme.loyalsips.platform.loyalsips.interfaces.rest.resources.PointResource;
 import com.acme.loyalsips.platform.loyalsips.interfaces.rest.resources.RequestPointResource;
 import com.acme.loyalsips.platform.loyalsips.interfaces.rest.transform.PointResourceFromEntityAssembler;
 import com.acme.loyalsips.platform.loyalsips.interfaces.rest.transform.RequestPointCommandFromResourceAssembler;
+import com.acme.loyalsips.platform.loyalsips.domain.model.commands.CancelPointCommand;
+import com.acme.loyalsips.platform.loyalsips.domain.model.commands.ConfirmPointCommand;
+import com.acme.loyalsips.platform.loyalsips.domain.model.commands.RejectPointCommand;
+import com.acme.loyalsips.platform.loyalsips.domain.model.queries.GetPointByIdQuery;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

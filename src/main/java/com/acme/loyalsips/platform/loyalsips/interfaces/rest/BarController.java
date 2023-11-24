@@ -1,9 +1,5 @@
 package com.acme.loyalsips.platform.loyalsips.interfaces.rest;
 
-import com.acme.loyalsips.platform.loyalsips.domain.model.commands.DeleteBarCommand;
-import com.acme.loyalsips.platform.loyalsips.domain.model.queries.GetAllBarQuery;
-import com.acme.loyalsips.platform.loyalsips.domain.model.queries.GetBarByIdQuery;
-import com.acme.loyalsips.platform.loyalsips.domain.services.BarCommandService;
 import com.acme.loyalsips.platform.loyalsips.domain.services.BarQueryService;
 import com.acme.loyalsips.platform.loyalsips.interfaces.rest.resources.BarResource;
 import com.acme.loyalsips.platform.loyalsips.interfaces.rest.resources.CreateBarResource;
@@ -11,6 +7,10 @@ import com.acme.loyalsips.platform.loyalsips.interfaces.rest.resources.UpdateBar
 import com.acme.loyalsips.platform.loyalsips.interfaces.rest.transform.BarResourceFromEntityAssembler;
 import com.acme.loyalsips.platform.loyalsips.interfaces.rest.transform.CreateBarCommandFromResourceAssembler;
 import com.acme.loyalsips.platform.loyalsips.interfaces.rest.transform.UpdateBarCommandFromResourceAssembler;
+import com.acme.loyalsips.platform.loyalsips.domain.model.commands.DeleteBarCommand;
+import com.acme.loyalsips.platform.loyalsips.domain.model.queries.GetAllBarQuery;
+import com.acme.loyalsips.platform.loyalsips.domain.model.queries.GetBarByIdQuery;
+import com.acme.loyalsips.platform.loyalsips.domain.services.BarCommandService;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

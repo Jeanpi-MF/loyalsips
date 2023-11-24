@@ -2,9 +2,9 @@ package com.acme.loyalsips.platform.iam.application.internal.queryservices;
 
 import com.acme.loyalsips.platform.iam.domain.model.aggregates.User;
 import com.acme.loyalsips.platform.iam.domain.model.queries.GetAllUsersQuery;
+import com.acme.loyalsips.platform.iam.infrastructure.persistence.jpa.repositories.UserRepository;
 import com.acme.loyalsips.platform.iam.domain.model.queries.GetUserByIdQuery;
 import com.acme.loyalsips.platform.iam.domain.services.UserQueryService;
-import com.acme.loyalsips.platform.iam.infrastructure.persistence.jpa.repositories.UserRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

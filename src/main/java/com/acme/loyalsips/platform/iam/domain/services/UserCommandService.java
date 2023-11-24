@@ -1,8 +1,8 @@
 package com.acme.loyalsips.platform.iam.domain.services;
 
+import com.acme.loyalsips.platform.iam.domain.model.commands.SignUpCommand;
 import com.acme.loyalsips.platform.iam.domain.model.aggregates.User;
 import com.acme.loyalsips.platform.iam.domain.model.commands.SignInCommand;
-import com.acme.loyalsips.platform.iam.domain.model.commands.SignUpCommand;
 import org.apache.commons.lang3.tuple.ImmutablePair;
 
 import java.util.Optional;

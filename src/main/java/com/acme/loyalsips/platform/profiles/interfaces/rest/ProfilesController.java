@@ -1,12 +1,12 @@
 package com.acme.loyalsips.platform.profiles.interfaces.rest;
 
-import com.acme.loyalsips.platform.profiles.domain.model.queries.GetProfileByIdQuery;
 import com.acme.loyalsips.platform.profiles.domain.services.ProfileCommandService;
 import com.acme.loyalsips.platform.profiles.domain.services.ProfileQueryService;
 import com.acme.loyalsips.platform.profiles.interfaces.rest.resources.CreateProfileResource;
 import com.acme.loyalsips.platform.profiles.interfaces.rest.resources.ProfileResource;
 import com.acme.loyalsips.platform.profiles.interfaces.rest.transform.CreateProfileCommandFromResourceAssembler;
 import com.acme.loyalsips.platform.profiles.interfaces.rest.transform.ProfileResourceFromEntityAssembler;
+import com.acme.loyalsips.platform.profiles.domain.model.queries.GetProfileByIdQuery;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;

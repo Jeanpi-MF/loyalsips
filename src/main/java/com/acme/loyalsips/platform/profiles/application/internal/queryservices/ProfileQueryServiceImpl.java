@@ -1,10 +1,10 @@
 package com.acme.loyalsips.platform.profiles.application.internal.queryservices;
 
+import com.acme.loyalsips.platform.profiles.infrastructure.persistence.jpa.repositories.ProfileRepository;
 import com.acme.loyalsips.platform.profiles.domain.model.aggregates.Profile;
 import com.acme.loyalsips.platform.profiles.domain.model.queries.GetProfileByEmailQuery;
 import com.acme.loyalsips.platform.profiles.domain.model.queries.GetProfileByIdQuery;
 import com.acme.loyalsips.platform.profiles.domain.services.ProfileQueryService;
-import com.acme.loyalsips.platform.profiles.infrastructure.persistence.jpa.repositories.ProfileRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;

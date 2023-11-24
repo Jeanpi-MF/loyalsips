@@ -1,13 +1,13 @@
 package com.acme.loyalsips.platform.loyalsips.interfaces.rest;
 
+import com.acme.loyalsips.platform.loyalsips.interfaces.rest.resources.CustomerResource;
+import com.acme.loyalsips.platform.loyalsips.interfaces.rest.transform.CreateCustomerCommandFromResourceAssembler;
+import com.acme.loyalsips.platform.loyalsips.interfaces.rest.transform.CustomerResourceFromEntityAssembler;
 import com.acme.loyalsips.platform.loyalsips.domain.model.queries.GetCustomerByAcmeCustomerRecordIdQuery;
 import com.acme.loyalsips.platform.loyalsips.domain.model.valueobjects.AcmeCustomerRecordId;
 import com.acme.loyalsips.platform.loyalsips.domain.services.CustomerCommandService;
 import com.acme.loyalsips.platform.loyalsips.domain.services.CustomerQueryService;
 import com.acme.loyalsips.platform.loyalsips.interfaces.rest.resources.CreateCustomerResource;
-import com.acme.loyalsips.platform.loyalsips.interfaces.rest.resources.CustomerResource;
-import com.acme.loyalsips.platform.loyalsips.interfaces.rest.transform.CreateCustomerCommandFromResourceAssembler;
-import com.acme.loyalsips.platform.loyalsips.interfaces.rest.transform.CustomerResourceFromEntityAssembler;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
