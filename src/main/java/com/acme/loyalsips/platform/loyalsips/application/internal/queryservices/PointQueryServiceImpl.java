@@ -1,10 +1,10 @@
 package com.acme.loyalsips.platform.loyalsips.application.internal.queryservices;
 
+import com.acme.loyalsips.platform.loyalsips.infrastructure.persistence.jpa.repositories.PointRepository;
 import com.acme.loyalsips.platform.loyalsips.domain.model.aggregates.Point;
 import com.acme.loyalsips.platform.loyalsips.domain.model.queries.GetCustomerPointsQuery;
 import com.acme.loyalsips.platform.loyalsips.domain.model.queries.GetPointByIdQuery;
 import com.acme.loyalsips.platform.loyalsips.domain.services.PointQueryService;
-import com.acme.loyalsips.platform.loyalsips.infrastructure.persistence.jpa.repositories.PointRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

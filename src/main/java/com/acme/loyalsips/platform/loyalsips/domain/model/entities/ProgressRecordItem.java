@@ -1,8 +1,8 @@
 package com.acme.loyalsips.platform.loyalsips.domain.model.entities;
 
 
-import com.acme.loyalsips.platform.loyalsips.domain.model.aggregates.Point;
 import com.acme.loyalsips.platform.loyalsips.domain.model.valueobjects.ProgressStatus;
+import com.acme.loyalsips.platform.loyalsips.domain.model.aggregates.Point;
 import com.acme.loyalsips.platform.shared.domain.model.entities.AuditableModel;
 import jakarta.persistence.*;
 import lombok.Getter;

@@ -1,12 +1,12 @@
 package com.acme.loyalsips.platform.loyalsips.application.internal.commandservices;
 
+import com.acme.loyalsips.platform.loyalsips.infrastructure.persistence.jpa.repositories.BarRepository;
 import com.acme.loyalsips.platform.loyalsips.domain.model.aggregates.Bar;
 import com.acme.loyalsips.platform.loyalsips.domain.model.commands.CreateBarCommand;
 import com.acme.loyalsips.platform.loyalsips.domain.model.commands.DeleteBarCommand;
 import com.acme.loyalsips.platform.loyalsips.domain.model.commands.UpdateBarCommand;
 import com.acme.loyalsips.platform.loyalsips.domain.services.BarCommandService;
-import com.acme.loyalsips.platform.loyalsips.infrastructure.persistence.jpa.repositories.BarRepository;
-import org.springframework.stereotype.Service;  
+import org.springframework.stereotype.Service;
 
 import java.util.Optional;
 
